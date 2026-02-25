@@ -10,8 +10,8 @@ The project demonstrates end-to-end deep learning workflow including dataset han
 
 - **Architecture:** Custom 5-layer Deep CNN
 - **Techniques Used:** Batch Normalization, Dropout, Adaptive Pooling
-- **Training Accuracy:** 74.99%
-- **Validation Accuracy:** 66.08%
+- **Training Accuracy:** 74.78%
+- **Validation Accuracy:** 61.18%
 - **Hardware:** NVIDIA GTX 1650 (CUDA Accelerated Training)
 - **Training Strategy:** Split-Swap approach (trained on larger split of 6,149 images)
 
@@ -48,9 +48,9 @@ The CNN was designed to handle high intra-class variance and low inter-class var
 
 After 20 epochs:
 
-- **Final Training Loss:** 0.872
-- **Final Training Accuracy:** 74.99%
-- **Final Validation Accuracy:** 66.08%
+- **Final Training Loss:** 0.885
+- **Final Training Accuracy:** 74.78%
+- **Final Validation Accuracy:** 61.18%
 
 ### Observations
 
